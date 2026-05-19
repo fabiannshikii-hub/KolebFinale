@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet"/>
+</head>
+<body class="bg-white">
+
+<!-- TOP BAR -->
+<div class="bg-brand py-2">
+  <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+    <div class="d-flex gap-3">
+      <a href="#" class="text-white text-decoration-none small fw-semibold">
+        <i class="bi bi-telephone-fill me-1"></i>+83-8385-37-999
+      </a>
+      <a href="#" class="text-white text-decoration-none small fw-semibold">
+        <i class="bi bi-envelope-fill me-1"></i>OlsamTuner@service.com
+      </a>
+    </div>
+    <div class="d-flex gap-2">
+      <a href="#" class="text-white fs-6"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-white fs-6"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="text-white fs-6"><i class="bi bi-youtube"></i></a>
+      <a href="#" class="text-white fs-6"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2 font-mont fw-black fs-4 text-dark" href="#">
+      <span class="bg-brand rounded-circle d-inline-flex align-items-center justify-content-center" style="width:32px;height:32px">
+        <i class="bi bi-car-front-fill text-white" style="font-size:.9rem"></i>
+      </span>
+      OlsamTuner
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-lg-stretch">
+        <li class="nav-item"><a class="nav-link fw-semibold px-3 py-lg-4 nav-active" href="#">Homepage</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold text-dark px-3 py-lg-4" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold text-dark px-3 py-lg-4" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold text-dark px-3 py-lg-4" href="#">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero-bg d-flex align-items-center text-center" style="padding: 120px 0 180px;">
+  <div class="container">
+    <p class="text-white-50 text-uppercase fw-semibold mb-3" style="letter-spacing:.22em; font-size:.85rem">Perfection</p>
+    <h1 class="text-white fw-black text-uppercase font-mont mb-4" style="font-size: clamp(2.4rem, 6vw, 4.2rem); line-height: 1.08;">
+      Give Your Car A<br>True Custom Look.
+    </h1>
+    <a href="#services" class="btn btn-brand rounded px-4 py-2 fs-6">Our Services</a>
+  </div>
+</section>
+
+<!-- SERVICE CARDS -->
+<div class="overlap-up position-relative" style="z-index:10;" id="services">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="svc-card rounded overflow-hidden shadow h-100">
+          <img src="assets/engine.jpg" class="w-100 object-fit-cover" style="height:185px" alt="Engine Diagnostics"/>
+          <div class="bg-dark text-white p-4">
+            <h5 class="fw-bold font-mont mb-2 text-white">Engine Diagnostics</h5>
+            <p class="text-white-50 small mb-3" style="line-height:1.65">We use the latest tools to identify engine issues quickly and accurately, getting your car back on the road fast.</p>
+            <a href="#" class="btn btn-brand btn-sm px-3 rounded">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="svc-card rounded overflow-hidden shadow h-100">
+          <img src="assets/imageswind.jpg" class="w-100 object-fit-cover" style="height:185px" alt="Windscreen Repairs"/>
+          <div class="bg-dark text-white p-4">
+            <h5 class="fw-bold font-mont mb-2 text-white">Windscreen Repairs</h5>
+            <p class="text-white-50 small mb-3" style="line-height:1.65">Chips, cracks, or full replacements — our glass specialists restore clarity and safety to your vehicle.</p>
+            <a href="#" class="btn btn-brand btn-sm px-3 rounded">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="svc-card rounded overflow-hidden shadow h-100">
+          <img src="assets/ban.jpg" class="w-100 object-fit-cover" style="height:185px" alt="Tires and Wheels"/>
+          <div class="bg-dark text-white p-4">
+            <h5 class="fw-bold font-mont mb-2 text-white">Tires and Wheels</h5>
+            <p class="text-white-50 small mb-3" style="line-height:1.65">From balancing and alignment to full replacement, we handle all your tire and wheel needs with precision.</p>
+            <a href="#" class="btn btn-brand btn-sm px-3 rounded">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="bg-white py-5" id="about">
+  <div class="container py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5">
+        <div class="about-img-wrap">
+          <img src="assets/garashe.jpg" alt="Sports Car"/>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <p class="text-brand text-uppercase fw-bold mb-2" style="letter-spacing:.18em; font-size:.78rem">Who We Are</p>
+        <h2 class="fw-black font-mont mb-3" style="font-size:clamp(1.6rem,3vw,2.2rem); line-height:1.22; color:var(--font);">
+          We have 25 years of<br>experience in this field
+        </h2>
+        <p class="text-secondary mb-4" style="font-size:.94rem; line-height:1.8;">
+          At our AutoService garage, we fully appreciate how difficult it is for people to find reliable and trustworthy garages where they can service and repair their cars. We are always keen to prove to our customers that we are different!
+        </p>
+        <div class="d-flex gap-5">
+          <div>
+            <div class="text-brand fw-black font-mont" style="font-size:3rem; line-height:1;">128</div>
+            <div class="text-secondary text-uppercase fw-bold mt-1" style="font-size:.73rem; letter-spacing:.13em;">Dealers Served</div>
+          </div>
+          <div>
+            <div class="text-brand fw-black font-mont" style="font-size:3rem; line-height:1;">84</div>
+            <div class="text-secondary text-uppercase fw-bold mt-1" style="font-size:.73rem; letter-spacing:.13em;">Garage Works</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES LIST -->
+<section class="bg-white pb-5">
+  <div class="container pb-4">
+    <div class="text-center mb-5">
+      <p class="text-brand text-uppercase fw-bold mb-1" style="letter-spacing:.2em; font-size:.78rem;">Company Overview</p>
+      <h2 class="fw-black font-mont" style="color:var(--font);">Auto Repair Services</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4 d-flex flex-column gap-4">
+        <div class="d-flex align-items-start gap-3">
+          <span class="bg-brand rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 mt-1" style="width:26px;height:26px;min-width:26px">
+            <i class="bi bi-check-lg text-white" style="font-size:.7rem"></i>
+          </span>
+          <div>
+            <h6 class="fw-bold font-mont mb-1" style="color:var(--font);">Qualified testers</h6>
+            <p class="text-secondary small mb-0" style="line-height:1.65;">Every technician holds certified credentials and undergoes regular training to keep up with modern vehicle systems.</p>
+          </div>
+        </div>
+        <div class="d-flex align-items-start gap-3">
+          <span class="bg-brand rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 mt-1" style="width:26px;height:26px;min-width:26px">
+            <i class="bi bi-check-lg text-white" style="font-size:.7rem"></i>
+          </span>
+          <div>
+            <h6 class="fw-bold font-mont mb-1" style="color:var(--font);">Over 25 years experience</h6>
+            <p class="text-secondary small mb-0" style="line-height:1.65;">Decades of hands-on work mean we've seen and fixed it all. Trust comes from a long and proven track record.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex flex-column gap-4">
+        <div class="d-flex align-items-start gap-3">
+          <span class="bg-brand rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 mt-1" style="width:26px;height:26px;min-width:26px">
+            <i class="bi bi-check-lg text-white" style="font-size:.7rem"></i>
+          </span>
+          <div>
+            <h6 class="fw-bold font-mont mb-1" style="color:var(--font);">Unbeatable savings</h6>
+            <p class="text-secondary small mb-0" style="line-height:1.65;">We offer transparent and competitive pricing with no hidden fees. Quality work doesn't have to break the bank.</p>
+          </div>
+        </div>
+        <div class="d-flex align-items-start gap-3">
+          <span class="bg-brand rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 mt-1" style="width:26px;height:26px;min-width:26px">
+            <i class="bi bi-check-lg text-white" style="font-size:.7rem"></i>
+          </span>
+          <div>
+            <h6 class="fw-bold font-mont mb-1" style="color:var(--font);">Every job is personal</h6>
+            <p class="text-secondary small mb-0" style="line-height:1.65;">We treat your vehicle like our own. Each repair gets our full attention, no matter how big or small the task.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex flex-column gap-4">
+        <div class="d-flex align-items-start gap-3">
+          <span class="bg-brand rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 mt-1" style="width:26px;height:26px;min-width:26px">
+            <i class="bi bi-check-lg text-white" style="font-size:.7rem"></i>
+          </span>
+          <div>
+            <h6 class="fw-bold font-mont mb-1" style="color:var(--font);">Genuine spare parts</h6>
+            <p class="text-secondary small mb-0" style="line-height:1.65;">We source only genuine or OEM-equivalent parts to ensure longevity, safety, and full manufacturer standards.</p>
+          </div>
+        </div>
+        <div class="d-flex align-items-start gap-3">
+          <span class="bg-brand rounded-circle d-flex align-items-center justify-content-center flex-shrink-0 mt-1" style="width:26px;height:26px;min-width:26px">
+            <i class="bi bi-check-lg text-white" style="font-size:.7rem"></i>
+          </span>
+          <div>
+            <h6 class="fw-bold font-mont mb-1" style="color:var(--font);">Professional standards</h6>
+            <p class="text-secondary small mb-0" style="line-height:1.65;">Our garage operates under strict quality and safety protocols, giving you full confidence in every single job.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUALIFIED -->
+<section class="qualified-bg d-flex align-items-center justify-content-center text-center" style="min-height:420px; padding:110px 0;">
+  <div class="container">
+    <p class="text-brand text-uppercase fw-bold mb-3" style="letter-spacing:.22em; font-size:.8rem;">It's What We Do</p>
+    <h2 class="text-white fw-black text-uppercase font-mont" style="font-size:clamp(2rem,5vw,3.4rem); line-height:1.12;">
+      We Are Qualified And<br>Professional
+    </h2>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-secondary pt-5 pb-3">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <span class="bg-brand rounded-circle d-flex align-items-center justify-content-center" style="width:30px;height:30px">
+            <i class="bi bi-car-front-fill text-white" style="font-size:.85rem"></i>
+          </span>
+          <span class="text-white fw-black font-mont fs-4">Garage</span>
+        </div>
+        <p class="small" style="line-height:1.75">Your trusted partner for professional auto repair, custom modifications, and complete vehicle care. Serving customers since 1999.</p>
+      </div>
+      <div class="col-sm-4 col-lg-2">
+        <p class="text-white fw-bold text-uppercase mb-3 font-mont" style="letter-spacing:.1em; font-size:.88rem;">Quick Links</p>
+        <a href="#" class="d-block text-secondary text-decoration-none small py-1">Home</a>
+        <a href="#about" class="d-block text-secondary text-decoration-none small py-1">About Us</a>
+        <a href="#services" class="d-block text-secondary text-decoration-none small py-1">Services</a>
+        <a href="#" class="d-block text-secondary text-decoration-none small py-1">Blog</a>
+        <a href="#" class="d-block text-secondary text-decoration-none small py-1">Contact</a>
+      </div>
+      <div class="col-sm-4 col-lg-3">
+        <p class="text-white fw-bold text-uppercase mb-3 font-mont" style="letter-spacing:.1em; font-size:.88rem;">Services</p>
+        <a href="#" class="d-block text-secondary text-decoration-none small py-1">Engine Diagnostics</a>
+        <a href="#" class="d-block text-secondary text-decoration-none small py-1">Windscreen Repairs</a>
+        <a href="#" class="d-block text-secondary text-decoration-none small py-1">Tires and Wheels</a>
+        <a href="#" class="d-block text-secondary text-decoration-none small py-1">Performance Tuning</a>
+        <a href="#" class="d-block text-secondary text-decoration-none small py-1">Auto Detailing</a>
+      </div>
+      <div class="col-sm-4 col-lg-3">
+        <p class="text-white fw-bold text-uppercase mb-3 font-mont" style="letter-spacing:.1em; font-size:.88rem;">Contact</p>
+        <p class="small mb-2"><i class="bi bi-telephone-fill text-brand me-2"></i>+84-1280-33-999</p>
+        <p class="small mb-2"><i class="bi bi-envelope-fill text-brand me-2"></i>car@service.com</p>
+        <p class="small mb-2"><i class="bi bi-geo-alt-fill text-brand me-2"></i>123 Auto Street, Garage City</p>
+        <p class="small mb-2"><i class="bi bi-clock-fill text-brand me-2"></i>Mon–Sat: 08:00 – 18:00</p>
+      </div>
+    </div>
+    <div class="border-top border-secondary mt-4 pt-3 text-center small">
+      © 2026 Garage Auto Service. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const t = document.querySelector(a.getAttribute('href'));
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+    });
+  });
+</script> 
+
+  
+</body>
+</html>

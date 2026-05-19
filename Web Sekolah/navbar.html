@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+    <style>
+      /* Navbar */
+      .navbar {
+        background: rgba(17, 18, 23, 0.35) !important;
+        border-bottom: 1px solid var(--border);
+        backdrop-filter: blur(8px);
+      }
+
+      .navbar-brand {
+        font-weight: 500;
+        font-size: 22px;
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+        color: var(--text) !important;
+      }
+
+      .nav-link {
+        font-size: 16px;
+        color: #666 !important;
+        letter-spacing: 0.1px;
+        transition: color 0.2s;
+      }
+
+      .nav-link:hover {
+        color: var(--gold) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md sticky-top">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand">PORT<em>FOLIO</em></a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          style="color: #666"
+        >
+          <i class="bi bi-list" style="font-size: 1.4rem"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+          <ul class="navbar-nav gap-2">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Project</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
