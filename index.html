@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gue</title>
+    <link rel="icon" type="image/png" href="asset/Gemini_Generated_Image_vbnrffvbnrffvbnr-removebg-preview.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Montserrat+Alternates:wght@700;800;900&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md sticky-top">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#">ALFA<span>.</span></a>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          style="color: var(--gray)"
+        >
+          <i class="bi bi-list fs-4"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+          <ul class="navbar-nav gap-0">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#project" role="button" data-bs-toggle="dropdown" aria-expanded="false">Project</a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="../Koleb1/index1.html">Kolab 1</a></li>
+                <li><a class="dropdown-item" href="../Web Sekolah/index.html">Web School</a></li>
+                <li><a class="dropdown-item" href="../LandingPageLingkungan/index.html">Environment</a></li>
+                <li><a class="dropdown-item" href="../LandingPageBengkel/index.html">Reference</a></li>
+                <li><a class="dropdown-item" href="#project">Other</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Heror -->
+    <section id="hero">
+      <div class="container-xl h-100">
+        <div class="row align-items-center gx-4 gy-5 pb-0" style="min-height: calc(100vh - 64px)">
+
+          <!-- Kiri -->
+          <div class="col-lg-4 col-md-5 d-flex flex-column gap-4 pb-5">
+            <h1 class="hero-greeting">
+              Hello, I'm
+              <span class="name">Alfabian</span>
+              Adika P<span style="color: var(--orange)">.</span>
+            </h1>
+            <div class="hero-socials d-flex flex-column gap-1">
+              <div>
+                <a href="https://www.instagram.com/fbiannnsaidcihuyy?igsh=MWRlb3dnbXZ5bjEzZg==">Instagram</a>
+                <span class="sep">|</span>
+                <a href="https://www.youtube.com/@AstagaYann10">Youtube</a>
+              </div>
+              <div>
+                <a href="https://www.facebook.com/share/18rJXuVKUA/">Facebook</a>
+                <span class="sep">&nbsp;&nbsp;|</span>
+                <a href="https://www.tiktok.com/@f.ianzz10?_r=1&_t=ZS-9656oRGd2wK">Tiktok</a>
+              </div>
+            </div>
+            <div>
+              <a href="#contact" class="btn-outline-orange btn-contact">Contact Me</a>
+            </div>
+          </div>
+
+          <!-- Tengah -->
+          <div class="col-lg-4 col-md-2 d-flex justify-content-center align-items-end pb-0">
+            <div class="hero-photo-wrap">
+              <img src="asset/adalem-jukebox-bg-removed.png" alt="Alfabian Adika P." />
+            </div>
+          </div>
+
+          <!-- Kanan -->
+          <div class="col-lg-3 col-md-5 ms-auto d-flex flex-column gap-3 pb-5">
+            <div class="role-tag">Web Developer</div>
+            <h2 class="hero-title">Rookie Designer<br />and Developer</h2>
+            <p class="hero-desc">I like coding and building websites — turning ideas into something</p>
+            <a href="#about" class="learn-more" data-bs-toggle="modal" data-bs-target="#aboutModal">Learn more ↓</a>
+            <div class="d-flex gap-2 mt-1">
+              <a href="https://www.instagram.com/fbiannnsaidcihuyy?igsh=MWRlb3dnbXZ5bjEzZg==" class="social-icon-btn" title="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://www.tiktok.com/@f.ianzz10?_r=1&_t=ZS-9656oRGd2wK" class="social-icon-btn" title="TikTok">
+                <i class="bi bi-tiktok"></i>
+              </a>
+              <a href="https://www.facebook.com/share/18rJXuVKUA/" class="social-icon-btn" title="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- About me -->
+    <section id="about" class="py-5">
+      <div class="container-xl">
+        <div class="row align-items-start gx-5 gy-4">
+          <div class="col-md-7">
+            <h2 class="about-title mb-3">About <span>Me</span></h2>
+            <p class="about-text">
+             I'm <strong>Alfabian Adika P</strong>, a Junior Frontend Developer
+             based in Central Java. Born on May 7, 2010, in Semarang Regency.
+             Currently studying Software and Game Development (PPLG) at SMKN Tengaran. 
+             I am passionate about building responsive, user-friendly websites and constantly
+             sharpening my UI/UX design skills. Beyond the screen, I'm also an
+             active member of the scouting (Pramuka) community.
+            </p>
+
+            <p class="about-text" style="margin-top: 40px;">
+              At some point coding stopped being something I do and just became something I am. 
+              I open my laptop not because I have to, but because there's always something 
+              I want to build, fix, or just mess around with. And most of the time, 
+              I end up learning something new without even realizing it.
+             </p>
+          </div>
+          <div class="col-lg-3 col-md-5 ms-auto d-flex flex-column gap-3 text-center">
+            <div class="stat-card">
+              <div class="stat-number">1+</div>
+              <div class="stat-label">Tahun Belajar</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">5+</div>
+              <div class="stat-label">Project Selesai</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">4</div>
+              <div class="stat-label">My Skill</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container-xl py-5">
+        <h2 class="skill-title mb-5 text-end">
+          My <span style="color: var(--orange)">Skills</span>
+        </h2>
+        <div class="skills-container">
+          <div class="mb-4">
+            <div class="d-flex justify-content-between mb-2">
+              <span class="skill-label">HTML</span>
+              <span class="skill-label">80%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="d-flex justify-content-between mb-2">
+              <span class="skill-label">CSS</span>
+              <span class="skill-label">70%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="d-flex justify-content-between mb-2">
+              <span class="skill-label">JavaScript</span>
+              <span class="skill-label">20%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 20%"></div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="d-flex justify-content-between mb-2">
+              <span class="skill-label">Bootstrap</span>
+              <span class="skill-label">70%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="d-flex justify-content-between mb-2">
+              <span class="skill-label">Figma</span>
+              <span class="skill-label">65%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 65%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Project Carousel -->
+    <section id="project" class="py-5" style="background: var(--bg-deeper)">
+      <div class="container-xl">
+        <p class="project-label mb-1">WHAT I KNOW</p>
+        <h2 class="section-title mb-5">
+          My Last <span style="color: var(--orange)">Project</span>
+        </h2>
+        <div class="project-card">
+          <div id="projectCarousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-placeholder" style="background-image: url(asset/Koleb1.png)"></div>
+                <div class="project-info">
+                  <div class="project-badge">Website Collaboration 1</div>
+                  <div class="project-name">Sem. 1 Collaboration - Team Project Website</div>
+                  <p class="project-desc">A collaborative website built with my team in Semester 1. Combines HTML and CSS into a responsive multi-page site.</p>
+                  <div class="d-flex gap-2 flex-wrap">
+                    <a href="../Koleb1/index1.html" class="btn-outline-orange"><i class="bi bi-box-arrow-up-right"></i> View Project</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-placeholder" style="background-image: url(asset/cekulah.png)"></div>
+                <div class="project-info">
+                  <div class="project-badge">Website School</div>
+                  <div class="project-name">School Web — SMPN 2 Tengaran Profile Website</div>
+                  <p class="project-desc">A school profile website for SMPN 2 Tengaran, featuring academic info, extracurricular activities, and school news.</p>
+                  <div class="d-flex gap-2 flex-wrap">
+                    <a href="../Web Sekolah/index.html" class="btn-outline-orange"><i class="bi bi-box-arrow-up-right"></i> View Project</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-placeholder" style="background-image: url(../asset/Screenshot\ \(285\).png)"></div>
+                <div class="project-info">
+                  <div class="project-badge">Website · Environment</div>
+                  <div class="project-name">Environment Web — Go Green Awareness Website</div>
+                  <p class="project-desc">A website raising awareness about environmental issues, featuring articles on sustainability, recycling, and nature conservation.</p>
+                  <div class="d-flex gap-2 flex-wrap">
+                    <a href="../LandingPageLingkungan/index.html" class="btn-outline-orange"><i class="bi bi-box-arrow-up-right"></i> Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-placeholder" style="background-image: url(../asset/Cuplikan\ layar\ 2026-05-16\ 220801.png)"></div>
+                <div class="project-info">
+                  <div class="project-badge">Website Reference</div>
+                  <div class="project-name">Reference Landing Page</div>
+                  <p class="project-desc">"A
+                    
+                    \
+                    
+                    
+                    \
+                    ]website raising awareness about car maintenance, featuring catalogs on automotive services, original spare parts, and professional engine tuning."</p>
+                  <div class="d-flex gap-2 flex-wrap">
+                    <a href="../LandingPageBengkel/index.html" class="btn-outline-orange"><i class="bi bi-box-arrow-up-right"></i> View Project</a>
+                  </div>
+                </div>
+              </div>
+            <div class="carousel-item">
+                <div class="carousel-placeholder" style="background-image: url(../asset/Cuplikan\ layar\ 2026-05-16\ 220821.png)"></div>
+                <div class="project-info">
+                  <div class="project-badge">Website Sneakers</div>
+                  <div class="project-name">Sneakers Landing Page</div>
+                  <p class="project-desc">"A website raising awareness about the latest sneaker drops, featuring catalogs on trending sneakers, authentic pairs, and limited-edition collections."</p>
+                  <div class="d-flex gap-2 flex-wrap">
+                    <a href="../sneakers/index.html" class="btn-outline-orange"><i class="bi bi-box-arrow-up-right"></i> View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+              </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+      <div class="container-xl">
+        <div class="row gx-5 gy-5 align-items-start">
+
+          <div class="col-md-5">
+            <h2 class="contact-title">Contact <span>Me</span></h2>
+
+            <h3 class="contact-subt">
+              Let's Grab a <br />
+              <span>Virtual Coffee</span>.
+            </h3>
+
+            <p class="contact-isi">Discuss collaboration, project ideas, or simply connect.</p>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div>
+                <p class="info-label">Telephone</p>
+                <p class="info-value">
+                  <a href="https://wa.me/6283838534890">0838-3853-4890</a>
+                </p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div>
+                <p class="info-label">Email</p>
+                <p class="info-value">
+                  <a href="mailto:alfabian.p25005@gmail.com">alfabian.p25005@gmail.com</a>
+                </p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div>
+                <p class="info-label">Location</p>
+                <p class="info-value"><a href="https://goo.gl/maps/qTp9YcHgyQoUXy7n7">Hamlet,<br />Kab. Semarang</a></p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-7">
+            <div class="contact-form-card">
+
+              <div style="display:flex; gap:16px; align-items:stretch;">
+
+                <div style="display:flex; flex-direction:column; gap:12px; flex:1;">
+                  <div>
+                    <label class="form-label-custom">Fullname</label>
+                    <input type="text" class="form-control-custom" placeholder="Input your Fullname" />
+                  </div>
+                  <div>
+                    <label class="form-label-custom">Region</label>
+                    <input type="text" class="form-control-custom" placeholder="Your region / city" />
+                  </div>
+                  <div>
+                    <label class="form-label-custom">Phone Number</label>
+                    <input type="tel" class="form-control-custom" placeholder="Input your Phone Number" />
+                  </div>
+                </div>
+
+                <div style="display:flex; flex-direction:column; flex:1;">
+                  <label class="form-label-custom">Message</label>
+                  <textarea class="form-control-custom"
+                    style="flex:1; resize:none; min-height:160px;"
+                    placeholder="How can I help you today?"></textarea>
+                </div>
+
+              </div>
+
+              <div style="margin-top:12px;">
+                <label class="form-label-custom">Email</label>
+                <input type="email" class="form-control-custom" placeholder="your@gmail.com" />
+              </div>
+
+              <div class="text-center" style="margin-top:12px;">
+                <button class="btn-send">
+                <i class="bi bi-send-fill"></i> Send a Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+     <footer>
+    <div class="container-xl">
+      <div class="row gy-4">
+        <div class="col-md-4 col-6">
+          <div class="footer-logo">ALFA<span>.</span></div>
+          <p class="footer-desc">
+            Focused on building seamless interfaces and interactive digital
+            experiences from Central Java.
+          </p>
+          <div class="d-flex gap-2 mt-3">
+            <a href="https://www.instagram.com/fbiannnsaidcihuyy?igsh=MWRlb3dnbXZ5bjEzZg==" class="footer-social" title="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/share/18rJXuVKUA/" class="footer-social" title="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com/@AstagaYann10" class="footer-social" title="YouTube">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://www.tiktok.com/@f.ianzz10?_r=1&_t=ZS-9656oRGd2wK" class="footer-social" title="TikTok">
+              <i class="bi bi-tiktok"></i>
+            </a>
+          </div>
+        </div>
+ 
+        <div class="col-md-2 col-6">
+          <p class="footer-col-title">Navigate</p>
+  
+          <a href="#" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#project" class="footer-link">Project</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+
+        <div class="col-md-3 col-6">
+          <p class="footer-col-title">Project</p>
+          <a href="../Koleb1/index1.html" class="footer-link">Sem. 1 Collaboration</a>
+          <a href="../Web Sekolah/index.html" class="footer-link">School Web</a>
+          <a href="../LandingPageLingkungan/index.html" class="footer-link">Environment Web</a>
+          <a href="../LandingPageBengkel/index.html" class="footer-link">Reference Web</a>
+          <a href="../sneakers/index.html" class="footer-link">Sneakers Web</a>
+        </div>
+
+        <div class="col-md-3 col-6">
+          <p class="footer-col-title">Find Me</p>
+          <a href="https://www.instagram.com/fbiannnsaidcihuyy?igsh=MWRlb3dnbXZ5bjEzZg==" class="footer-link">
+            <i class="bi bi-instagram me-1"></i> Instagram
+          </a>
+          <a href="https://www.facebook.com/share/18rJXuVKUA/" class="footer-link">
+            <i class="bi bi-facebook me-1"></i> Facebook
+          </a>
+          <a href="https://www.youtube.com/@AstagaYann10" class="footer-link">
+            <i class="bi bi-youtube me-1"></i> YouTube
+          </a>
+          <a href="https://www.tiktok.com/@f.ianzz10?_r=1&_t=ZS-9656oRGd2wK" class="footer-link">
+            <i class="bi bi-tiktok me-1"></i> TikTok
+          </a>
+        </div>
+ 
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container-xl">
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+          <p class="footer-copy mb-0">
+            &copy;2026 Alfa. All rights reserved.
+          </p>
+          <p class="footer-copy mb-0">
+            Designed & Built by <span style="color: var(--orange); font-weight: 600;">Alfabian Adika P.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="aboutModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="background: transparent; border: none; position: relative;">
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+        style="position:absolute; top:-40px; right:0; z-index:10;">
+      </button>
+      <div class="modal-body p-0 d-flex justify-content-center align-items-center">
+        <img src="../asset/Black and White Text Icons Homescreen Wallpaper.png" alt="Alfabian Adika P."
+          style="max-width:100%; max-height:85vh; object-fit:contain; border-radius: 10px;" />
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
